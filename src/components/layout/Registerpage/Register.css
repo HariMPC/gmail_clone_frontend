@@ -1,0 +1,13 @@
+.Register_Container{
+    display: grid;
+    align-items: center;
+    position: absolute;
+    top: 170px;
+    left: 650px;
+    padding: 20px;
+    width: 500px;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 15px;
+}

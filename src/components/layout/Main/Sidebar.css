@@ -1,0 +1,62 @@
+.Sidebar_Container{
+    /* border-right: 1px solid lightgray; */
+    height: calc(100vh - 75px);
+    display: flex;
+    flex-direction: column;
+    background-color:#f4f6f8;
+}
+.top_section{
+    margin-bottom: -50px;
+}
+.Compose{
+    display: grid;
+    place-items: start;
+    padding: 10px 20px;
+}
+.SideBarButtonIcons{
+    display: grid;
+    grid-template-columns: 18% auto;
+    color: gray;
+    padding: 5px 25px;
+    border-radius: 0 100px 100px 0;
+    cursor: pointer;
+    margin-right: 8px;
+}
+.SideBarButtonIcons:hover{
+    background-color: #fafafb;
+    color: black;
+    }
+.google_meet{
+    position: relative;
+    top: 200px;
+    border-top: 1px solid lightgray;
+}
+.google_meet p{
+    color: gray;
+    display: grid;
+    grid-template-columns: 14% auto;
+    height: 30px;
+    align-items: center;
+    padding-left: 25px;
+
+}
+.Lable{
+    display: grid;
+    grid-template-columns: auto 30%;
+    align-items: center;
+    margin-top: 50px;
+}
+.Lable p{
+    color: gray;
+    display: grid;
+    grid-template-columns: 14% auto;
+    height: 30px;
+    align-items: center;
+    padding-left: 25px;
+}
+.Title{
+    padding-left: 25px;
+    margin-bottom: 3px;
+    margin-top: 8px;
+    font-size: large;
+}

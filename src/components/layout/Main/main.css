@@ -1,0 +1,8 @@
+.Main_Container{
+    display: grid;
+    grid-template-columns: 250px auto 50px;
+}
+
+/* .Main_Container.SideBarLayout:hover{
+    left:0;
+} */

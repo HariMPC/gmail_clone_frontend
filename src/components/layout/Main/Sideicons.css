@@ -1,0 +1,15 @@
+.Sideicons_Container{
+    display: grid;
+    grid-template-rows: repeat(4, 50px) 1px 50px;
+    place-items: Center;
+    /* border-left: 1px solid lightgray; */
+    background-color:#f4f6f8;
+}
+.Sideicons_Container img{
+    width: 100%;
+    max-height: 22px;
+    object-fit: contain;
+}
+.Sideicons_Container hr {
+    width: 60%;
+}

@@ -1,0 +1,17 @@
+.Inbox_Container{
+    border-top: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    border-radius:10px;
+    box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.302), 0 1px 3px 1px rgba(60, 64, 67, 0.149);
+    
+}
+.Top_row{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-left: 10px;
+    height: 48px;
+}
+.topBar-right{
+    padding-left: 375px;
+}

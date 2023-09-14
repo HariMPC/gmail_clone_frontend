@@ -1,0 +1,7 @@
+.Logout_container{
+    display: grid;
+    align-items: center;
+    position: absolute;
+    top: 50px;
+    left: 1350px;
+}

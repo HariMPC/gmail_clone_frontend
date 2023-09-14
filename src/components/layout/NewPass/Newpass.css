@@ -1,0 +1,22 @@
+.Newpass_Container{
+    display: grid;
+    align-items: center;
+    position: absolute;
+    padding: 20px;
+    height: 300px;
+    width: 500px;
+    top: 170px;
+    left: 650px;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 15px;
+    background-color: #f4f6f8;
+}
+.Sign_btn{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+}

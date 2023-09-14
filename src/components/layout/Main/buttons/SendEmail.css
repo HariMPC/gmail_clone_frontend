@@ -1,0 +1,75 @@
+.Send_email_container{
+    display: grid;
+    align-items: center;
+    position: absolute;
+    top: 170px;
+    left: 650px;
+    width: 500px;
+    height: fit-content;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 15px;
+    background-color: white;
+    border: 1px solid black;
+    padding-top: 5px;
+}
+.Heading{
+    display: flex;
+    justify-content:space-between;
+    padding-left: 15px;
+    padding-right: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* .Top{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-items: center;
+    border-radius: 10px;
+    border: 1px solid black;
+    border-top: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    background-color:#f4f6f8;
+    padding-right: 10px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+
+}
+
+.send_mail{
+    display: grid;
+    grid-template-rows: 20% 25% 35%;
+    padding: 10px;
+    width: 100%;
+    max-width: 700px;
+    height: 100%;
+    max-height: 500px;
+    background-color: white;
+    border: 1px solid lightgray;
+    font-weight: bolder;
+    color: black;
+}
+.send_mail .btn{
+    justify-content: flex-end;
+    display: flex;
+    position: fixed;
+    bottom: 30px;
+    left: 700px;
+    align-items: center;
+}
+.send_mail button{
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color:#0b57d0;
+    border-radius: 18px;
+} */
+/* .form-control{
+    height: 10rem;
+} */
