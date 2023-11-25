@@ -4,7 +4,6 @@ import { useNavigate } from 'react-router-dom';
 import axios from "axios";
 
 // import { userRegister } from '../../Axios/useraxios';
-const API = "http://localhost:8000/U1/register";
 
 function Register () {
 
@@ -32,7 +31,7 @@ function Register () {
     e.preventDefault();
 
     try {
-      const response = await axios.post(`${API}`, formData);
+      const response = await axios.post(`https://gamil-clone-backend.onrender.com/U1/register`, formData);
       setRegistrationStatus({ message: response.data.message, isError: false });
 
       // Clear the form data after successful registration

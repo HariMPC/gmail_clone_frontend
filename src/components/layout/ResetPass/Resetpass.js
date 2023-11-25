@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import './Resetpass.css';
 import axios from 'axios';
 
-const API = "http://localhost:8000/U1/forgot-password";
+const API = "https://gamil-clone-backend.onrender.com/U1/forgot-password";
 function Resetpass () {
 
   const initialFormData = {

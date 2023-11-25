@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom';
 import axios from "axios";
 import './Newpass.css';
-const API = "http://localhost:8000/U1/reset-password/:Token/:userId";
+const API = "https://gamil-clone-backend.onrender.com/U1/reset-password/:Token/:userId";
 const Newpass = () => {
   const Navigate = useNavigate();
 

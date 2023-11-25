@@ -5,7 +5,7 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { useState } from 'react';
 import axios from 'axios';
 
-const API = "http://localhost:8000/gmail/sendmail";
+const API = "https://gamil-clone-backend.onrender.com/gmail/sendmail";
 function SendEmail(props) { 
 
   const initialFormData = {

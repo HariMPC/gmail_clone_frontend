@@ -2,7 +2,7 @@ import React from 'react';
 import './logoutform.css';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
-const API = "http://localhost:8000/U1/logout";
+
 function Logoutform (props) {
     const Navigate = useNavigate();
 
@@ -10,7 +10,7 @@ function Logoutform (props) {
         e.preventDefault();
         
         try {
-          const response = await axios.get(`${API}`);
+          const response = await axios.get(`https://gamil-clone-backend.onrender.com/U1/logout`);
     
           if (response.data.message === 'User logged-out successfully.') {
             Navigate('/');
@@ -18,6 +18,9 @@ function Logoutform (props) {
         } catch (error) {
           console.log('Internal Server Error');
         }
+
+
+        
       };
     
   return (props.trigger) ? (

@@ -2,7 +2,7 @@ import React, { useState} from 'react'
 import './Login.css';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
-const API = "http://localhost:8000/U1/login";
+const API = "https://gamil-clone-backend.onrender.com/U1/login";
 
 
 function Login () {
