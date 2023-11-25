@@ -1,3 +1,9 @@
+i have built the website for sending and reciving mails,
+and the user access is also built 
+LOG OUT button is in accounts icon in top right corner.
+
+by hitting the comopose icon you can get the form for sending mail.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

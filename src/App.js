@@ -6,7 +6,7 @@ import Register from './components/layout/Registerpage/Register';
 import Login from './components/layout/Loginpage/Login';
 import Resetpass from './components/layout/ResetPass/Resetpass';
 import Newpass from './components/layout/NewPass/Newpass';
-import { useState } from 'react';
+
 function App() {
 
   return (
